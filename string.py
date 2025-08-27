@@ -1,11 +1,11 @@
 s='Welcome to python'
 '''
 'welcome to python'
-'123.............17'
+'0123.............17'
 '-17.............-1'
 
 
-'''
+'''#s[0]=s[-17]
 '''
 print(s)
 print(len(s))
@@ -56,6 +56,7 @@ print(b)
 
 c=s[-17:-12]
 print(c)
+
 
 
 

@@ -11,6 +11,7 @@ printMyName('kunalan')
 def getFullName(firstName,lastName):
     print(firstName+lastName)
 getFullName('selvanayagam','thameesan')
+
 '''
 '''
 def getFullName(firstName="selvanayagam",lastName='thameesan'):
@@ -18,9 +19,10 @@ def getFullName(firstName="selvanayagam",lastName='thameesan'):
 getFullName()
 '''
 
+
 def getFullName(firstName,lastName):
     print(firstName+lastName)
-    return firstName+lastName
+    #return firstName+lastName
 #getFullName('hi ')
 fullName=getFullName("selvanayagam",'thameesan')
 print(fullName)

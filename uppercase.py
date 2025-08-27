@@ -12,7 +12,7 @@ print('s.isupper()',s.isupper())
 print('s.isspace()',s.isspace())
 print('s.startswith("welcome")',s.startswith('welcome'))
 print('s.endswith("n")',s.endswith('n'))
-print('s.find("To")',s.find('To'))
+print('s.find("To")',s.find('to'))
 print('s.index("TO")',s.index('To'))
 #print('s.index("TO")',s.index('to')) # if to not in string it is show error
 print('s.count("TO")',s.count("To"))

@@ -18,7 +18,7 @@ def intrest(cash,duration,month_Or_year):
             cash=cash+cash*intrest_3_month*(3/12)
         elif duration==6:
             cash=cash+cash*intrest_6_month*(6/12)
-     if month_Or_year=="year":
+    if month_Or_year=="year":
         if duration==1:
             cash=cash+cash*intrest_1_year
         elif duration==3:
@@ -31,3 +31,4 @@ def intrest(cash,duration,month_Or_year):
     print(cash)
 
 intrest(100000,1,'year')
+intrest(1000,4,'year')
