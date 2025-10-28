@@ -1,4 +1,4 @@
-a=10
+a=9
 b=3
 '''
 print(a+b)
@@ -9,6 +9,7 @@ print(a%b)
 print(a//b) 
 print(a**b)
 '''
+print(a%b)
 
 
 #print('a+b'+a+b)
@@ -47,7 +48,7 @@ A=10 # say to take as consent variable
 
 
 
-
+'''
 
 a=5
 b=5
@@ -75,5 +76,5 @@ print(false or false)
 
 print(not true)
 
-
+'''
 
