@@ -1,7 +1,7 @@
 primeNumbers=[]
 for i in range(1,101):
     mod=0
-    if i==1:
+    if i==2:
         print(i)
         primeNumbers.append(i)
     if i>1:
